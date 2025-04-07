@@ -18,7 +18,7 @@ const app = express();
 // Middleware
 app.use(express.json({ limit: '50mb' }));
 app.use(cors({ 
-  origin: 'http://test.askdeepweb.com', 
+  origin: 'https://test.askdeepweb.com', 
   methods: ['GET', 'POST', 'PUT', 'DELETE'], 
   credentials: true 
 }));
